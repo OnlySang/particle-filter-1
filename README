@@ -1,0 +1,32 @@
+
+Title: A Simple Particle Filter Implementation 
+Author: Swagat Kumar 
+Email: swagat.kumar@gmail.com
+Date: May 22, 2013, Wednesday
+
+Source files:
+--------------
+gpf.h
+gpf.cpp 
+gpfex1.cpp  
+gpfex2.cpp 
+
+Data file
+----------------
+data3.txt : Input file needed for "gpfex3.cpp"
+
+Compile:
+--------------------
+$ g++ -g gpfex1.cpp gpf.cpp -o ex1 -lgsl -lgslcblas
+$ ./ex1
+
+$ g++ -g gpfex2.cpp gpf.cpp -o ex2 -lgsl -lgslcblas
+$ ./ex2
+
+Plots
+-------------
+Use GNUPLOT to obtain the plots.
+
+Dependencies
+--------------------
+It requires GSL library
